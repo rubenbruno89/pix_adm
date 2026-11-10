@@ -1,0 +1,1849 @@
+{
+  "schema": "sitecloner.audit.v1",
+  "generatedAt": "2026-11-10T05:10:24.448Z",
+  "version": "1.4.9.5",
+  "origin": "https://a1-4gu9urnabayfmgplzp2d1mvph.infusion-ai.cloud/login",
+  "scope": "site",
+  "limitation": "Observações coletadas do front-end público. Não representa acesso ao backend, a dados privados ou uma auditoria visual humana completa.",
+  "overview": {
+    "pagesCaptured": 1,
+    "pagesDiscovered": 1,
+    "assets": 4,
+    "bytes": 832861,
+    "types": {
+      "css": 2,
+      "js": 2
+    },
+    "errors": 0,
+    "warnings": 2,
+    "incompletePages": 0,
+    "stack": [
+      "Tailwind CSS"
+    ],
+    "navigation": {
+      "internalLinks": 0,
+      "capturedTargets": 0,
+      "fallbackOriginal": 0,
+      "missing": [],
+      "missingNav": []
+    }
+  },
+  "fidelity": {
+    "level": "observed",
+    "warning": "Confirme fidelidade em navegador."
+  },
+  "designSystem": {
+    "breakpoints": [],
+    "colors": [
+      {
+        "count": 20,
+        "value": "rgb(227, 230, 236)"
+      },
+      {
+        "count": 13,
+        "value": "rgb(13, 15, 20)"
+      },
+      {
+        "count": 6,
+        "value": "rgb(255, 255, 255)"
+      },
+      {
+        "count": 3,
+        "value": "rgb(253, 253, 254)"
+      },
+      {
+        "count": 2,
+        "value": "rgb(247, 248, 250)"
+      },
+      {
+        "count": 1,
+        "value": "rgb(91, 100, 114)"
+      },
+      {
+        "count": 1,
+        "value": "rgb(20, 121, 90)"
+      }
+    ],
+    "fontFaces": [],
+    "fonts": [
+      {
+        "count": 20,
+        "value": "Figtree, Inter, system-ui, sans-serif"
+      }
+    ],
+    "gaps": [
+      {
+        "count": 4,
+        "value": "8px"
+      },
+      {
+        "count": 2,
+        "value": "12px"
+      },
+      {
+        "count": 1,
+        "value": "24px"
+      },
+      {
+        "count": 1,
+        "value": "6px"
+      }
+    ],
+    "radii": [
+      {
+        "count": 3,
+        "value": "12px"
+      },
+      {
+        "count": 1,
+        "value": "18px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgba(16, 18, 24, 0.04) 0px 1px 2px 0px, rgba(16, 18, 24, 0.07) 0px 2px 8px -4px"
+      }
+    ],
+    "variables": [
+      {
+        "name": "--ease-in-out",
+        "value": "cubic-bezier(.4, 0, .2, 1)"
+      },
+      {
+        "name": "--color-drill-hover",
+        "value": "#f1f4fa"
+      },
+      {
+        "name": "--tw-ring-offset-shadow",
+        "value": "0 0 #0000"
+      },
+      {
+        "name": "--container-md",
+        "value": "28rem"
+      },
+      {
+        "name": "--tw-inset-shadow-alpha",
+        "value": "100%"
+      },
+      {
+        "name": "--color-label-strong",
+        "value": "#5b6472"
+      },
+      {
+        "name": "--tw-ring-shadow",
+        "value": "0 0 #0000"
+      },
+      {
+        "name": "--text-2xl",
+        "value": "1.5rem"
+      },
+      {
+        "name": "--color-warning-bg",
+        "value": "#fdf6e7"
+      },
+      {
+        "name": "--color-drill-text",
+        "value": "#0f6048"
+      },
+      {
+        "name": "--color-info-border",
+        "value": "#c3d8f7"
+      },
+      {
+        "name": "--chart-6",
+        "value": "#4257d4"
+      },
+      {
+        "name": "--chart-7",
+        "value": "#6f39cc"
+      },
+      {
+        "name": "--tw-drop-shadow-alpha",
+        "value": "100%"
+      },
+      {
+        "name": "--text-lg",
+        "value": "1.125rem"
+      },
+      {
+        "name": "--color-saldo-neg",
+        "value": "#c62f2a"
+      },
+      {
+        "name": "--shadow-overlay",
+        "value": "0 8px 24px -8px #0d0f1429"
+      },
+      {
+        "name": "--default-transition-timing-function",
+        "value": "cubic-bezier(.4, 0, .2, 1)"
+      },
+      {
+        "name": "--kpi-bg-amber",
+        "value": "#fdf6e7"
+      },
+      {
+        "name": "--kpi-bg-blue",
+        "value": "#eef4fd"
+      },
+      {
+        "name": "--color-bg",
+        "value": "#f7f8fa"
+      },
+      {
+        "name": "--text-meta--line-height",
+        "value": "1rem"
+      },
+      {
+        "name": "--color-nav-hover",
+        "value": "#f1f4fa"
+      },
+      {
+        "name": "--tw-outline-style",
+        "value": "solid"
+      },
+      {
+        "name": "--text-2xl--line-height",
+        "value": "calc(2 / 1.5)"
+      },
+      {
+        "name": "--color-success-border",
+        "value": "#a9dfc7"
+      },
+      {
+        "name": "--color-receita",
+        "value": "#0f7a52"
+      },
+      {
+        "name": "--tw-inset-ring-shadow",
+        "value": "0 0 #0000"
+      },
+      {
+        "name": "--text-base--line-height",
+        "value": "1.5"
+      },
+      {
+        "name": "--spacing",
+        "value": ".25rem"
+      },
+      {
+        "name": "--text-meta",
+        "value": ".75rem"
+      },
+      {
+        "name": "--color-warning",
+        "value": "#9a6a0f"
+      },
+      {
+        "name": "--color-text-secondary",
+        "value": "#5b6472"
+      },
+      {
+        "name": "--color-scrim",
+        "value": "#0d0f1447"
+      },
+      {
+        "name": "--color-breadcrumb",
+        "value": "#0f6048"
+      },
+      {
+        "name": "--color-info-bg",
+        "value": "#eef4fd"
+      },
+      {
+        "name": "--color-tick",
+        "value": "#6b7381"
+      },
+      {
+        "name": "--font-mono",
+        "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+      },
+      {
+        "name": "--color-pago",
+        "value": "#0f7a52"
+      },
+      {
+        "name": "--color-nav-active",
+        "value": "#0f6048"
+      },
+      {
+        "name": "--color-success",
+        "value": "#0f7a52"
+      },
+      {
+        "name": "--tracking-wide",
+        "value": ".025em"
+      },
+      {
+        "name": "--text-xl--line-height",
+        "value": "calc(1.75 / 1.25)"
+      },
+      {
+        "name": "--font-weight-semibold",
+        "value": "600"
+      },
+      {
+        "name": "--color-danger-border",
+        "value": "#f6c3c0"
+      },
+      {
+        "name": "--text-sm",
+        "value": ".875rem"
+      },
+      {
+        "name": "--ease-out",
+        "value": "cubic-bezier(0, 0, .2, 1)"
+      },
+      {
+        "name": "--color-primary-bg",
+        "value": "#e6f5ee"
+      },
+      {
+        "name": "--color-atrasado",
+        "value": "#c62f2a"
+      },
+      {
+        "name": "--color-pendente",
+        "value": "#9a6a0f"
+      },
+      {
+        "name": "--shadow-card",
+        "value": "0 1px 2px #1012180a, 0 2px 8px -4px #10121812"
+      },
+      {
+        "name": "--tw-inset-shadow",
+        "value": "0 0 #0000"
+      },
+      {
+        "name": "--tw-ring-offset-color",
+        "value": "#fff"
+      },
+      {
+        "name": "--color-despesa",
+        "value": "#c62f2a"
+      },
+      {
+        "name": "--text-lg--line-height",
+        "value": "calc(1.75 / 1.125)"
+      },
+      {
+        "name": "--color-white",
+        "value": "#fff"
+      },
+      {
+        "name": "--chart-5",
+        "value": "#c02a6d"
+      },
+      {
+        "name": "--color-danger-bg",
+        "value": "#fdf0ef"
+      },
+      {
+        "name": "--color-surface",
+        "value": "#fdfdfe"
+      },
+      {
+        "name": "--tw-shadow-alpha",
+        "value": "100%"
+      },
+      {
+        "name": "--leading-tight",
+        "value": "1.25"
+      },
+      {
+        "name": "--radius-sm",
+        "value": "9px"
+      },
+      {
+        "name": "--color-warning-border",
+        "value": "#f0dba6"
+      },
+      {
+        "name": "--font-sans",
+        "value": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "name": "--color-primary-hover",
+        "value": "#0f6048"
+      },
+      {
+        "name": "--tw-border-style",
+        "value": "solid"
+      },
+      {
+        "name": "--color-text",
+        "value": "#0d0f14"
+      },
+      {
+        "name": "--chart-8",
+        "value": "#c62f2a"
+      },
+      {
+        "name": "--container-2xl",
+        "value": "42rem"
+      },
+      {
+        "name": "--tw-shadow",
+        "value": "0 0 #0000"
+      },
+      {
+        "name": "--container-sm",
+        "value": "24rem"
+      },
+      {
+        "name": "--kpi-bg-cyan",
+        "value": "#e8f7f4"
+      },
+      {
+        "name": "--tw-ring-offset-width",
+        "value": "0px"
+      },
+      {
+        "name": "--color-label-muted",
+        "value": "#6b7381"
+      },
+      {
+        "name": "--color-primary",
+        "value": "#14795a"
+      },
+      {
+        "name": "--color-border",
+        "value": "#e3e6ec"
+      },
+      {
+        "name": "--text-sm--line-height",
+        "value": "calc(1.25 / .875)"
+      },
+      {
+        "name": "--color-nav-text",
+        "value": "#5b6472"
+      },
+      {
+        "name": "--default-font-family",
+        "value": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+      },
+      {
+        "name": "--color-black",
+        "value": "#000"
+      },
+      {
+        "name": "--container-lg",
+        "value": "32rem"
+      },
+      {
+        "name": "--font-weight-medium",
+        "value": "500"
+      },
+      {
+        "name": "--kpi-bg-green",
+        "value": "#e9f7f1"
+      },
+      {
+        "name": "--chart-3",
+        "value": "#0f7a52"
+      },
+      {
+        "name": "--color-saldo-pos",
+        "value": "#0f7a52"
+      },
+      {
+        "name": "--color-primary-light",
+        "value": "#14795a73"
+      },
+      {
+        "name": "--color-danger",
+        "value": "#c62f2a"
+      },
+      {
+        "name": "--color-success-bg",
+        "value": "#e9f7f1"
+      },
+      {
+        "name": "--color-on-primary",
+        "value": "#fff"
+      },
+      {
+        "name": "--default-transition-duration",
+        "value": ".15s"
+      }
+    ]
+  },
+  "layout": {
+    "backgrounds": [
+      {
+        "className": "hidden md:flex flex-col justify-between p-6",
+        "element": "div",
+        "image": "linear-gradient(135deg, rgb(20, 121, 90), rgb(27, 111, 168))",
+        "position": "0% 0%",
+        "size": "auto"
+      }
+    ],
+    "buttons": [
+      {
+        "background": "rgb(253, 253, 254)",
+        "box": {
+          "height": 46,
+          "width": 336,
+          "x": 984,
+          "y": 226
+        },
+        "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+        "color": "rgb(13, 15, 20)",
+        "display": "flex",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "8px",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "16px",
+        "tag": "button",
+        "text": "Continue com Google",
+        "weight": "500"
+      },
+      {
+        "background": "rgb(253, 253, 254)",
+        "box": {
+          "height": 46,
+          "width": 336,
+          "x": 984,
+          "y": 284
+        },
+        "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+        "color": "rgb(13, 15, 20)",
+        "display": "flex",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "8px",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "16px",
+        "tag": "button",
+        "text": "Continue com Microsoft",
+        "weight": "500"
+      },
+      {
+        "background": "rgb(20, 121, 90)",
+        "box": {
+          "height": 44,
+          "width": 336,
+          "x": 984,
+          "y": 453
+        },
+        "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+        "color": "rgb(255, 255, 255)",
+        "display": "flex",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "8px",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "16px",
+        "tag": "button",
+        "text": "Continuar com e-mail",
+        "weight": "500"
+      }
+    ],
+    "headings": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "box": {
+          "height": 32,
+          "width": 720,
+          "x": 24,
+          "y": 252
+        },
+        "className": "text-2xl font-semibold",
+        "color": "rgb(255, 255, 255)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "32px",
+        "margin": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "24px",
+        "tag": "h2",
+        "text": "Cobre seus clientes por Pix em segundos, direto no WhatsApp",
+        "weight": "600"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "box": {
+          "height": 28,
+          "width": 336,
+          "x": 984,
+          "y": 150
+        },
+        "className": "text-xl font-semibold",
+        "color": "rgb(13, 15, 20)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "28px",
+        "margin": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "20px",
+        "tag": "h1",
+        "text": "Cobrança Pix",
+        "weight": "600"
+      }
+    ],
+    "sections": [],
+    "typographySamples": [
+      {
+        "background": "rgb(247, 248, 250)",
+        "box": {
+          "height": 639,
+          "width": 1536,
+          "x": 0,
+          "y": 0
+        },
+        "className": "",
+        "color": "rgb(13, 15, 20)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "21px",
+        "margin": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "14px",
+        "tag": "body",
+        "text": "Cobrança Pix Cobre seus clientes por Pix em segundos, direto no WhatsApp QR Code e Pix copia e cola em cada cobrança Link pronto para enviar pelo WhatsApp Histórico com c",
+        "weight": "400"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "box": {
+          "height": 32,
+          "width": 720,
+          "x": 24,
+          "y": 252
+        },
+        "className": "text-2xl font-semibold",
+        "color": "rgb(255, 255, 255)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "32px",
+        "margin": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "24px",
+        "tag": "h2",
+        "text": "Cobre seus clientes por Pix em segundos, direto no WhatsApp",
+        "weight": "600"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "box": {
+          "height": 16,
+          "width": 720,
+          "x": 24,
+          "y": 599
+        },
+        "className": "text-meta",
+        "color": "rgb(255, 255, 255)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "16px",
+        "margin": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "12px",
+        "tag": "p",
+        "text": "Cada pessoa vê apenas as suas cobranças.",
+        "weight": "400"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "box": {
+          "height": 28,
+          "width": 336,
+          "x": 984,
+          "y": 150
+        },
+        "className": "text-xl font-semibold",
+        "color": "rgb(13, 15, 20)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "28px",
+        "margin": "0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "20px",
+        "tag": "h1",
+        "text": "Cobrança Pix",
+        "weight": "600"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "box": {
+          "height": 20,
+          "width": 336,
+          "x": 984,
+          "y": 182
+        },
+        "className": "text-sm mt-1",
+        "color": "rgb(91, 100, 114)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "20px",
+        "margin": "4px 0px 0px",
+        "padding": "0px",
+        "radius": "0px",
+        "shadow": "none",
+        "size": "14px",
+        "tag": "p",
+        "text": "Entre para criar e acompanhar suas cobranças",
+        "weight": "400"
+      },
+      {
+        "background": "rgb(253, 253, 254)",
+        "box": {
+          "height": 46,
+          "width": 336,
+          "x": 984,
+          "y": 226
+        },
+        "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+        "color": "rgb(13, 15, 20)",
+        "display": "flex",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "8px",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "16px",
+        "tag": "button",
+        "text": "Continue com Google",
+        "weight": "500"
+      },
+      {
+        "background": "rgb(253, 253, 254)",
+        "box": {
+          "height": 46,
+          "width": 336,
+          "x": 984,
+          "y": 284
+        },
+        "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+        "color": "rgb(13, 15, 20)",
+        "display": "flex",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "8px",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "16px",
+        "tag": "button",
+        "text": "Continue com Microsoft",
+        "weight": "500"
+      },
+      {
+        "background": "rgb(253, 253, 254)",
+        "box": {
+          "height": 38,
+          "width": 336,
+          "x": 984,
+          "y": 403
+        },
+        "className": "w-full px-3 py-2 text-sm rounded-md border focus:outline-none focus:ring-2 focus:border-transparent disabled:opacity-60 ",
+        "color": "rgb(13, 15, 20)",
+        "display": "block",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "normal",
+        "letterSpacing": "normal",
+        "lineHeight": "20px",
+        "margin": "0px",
+        "padding": "8px 12px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "14px",
+        "tag": "input",
+        "text": "",
+        "weight": "400"
+      },
+      {
+        "background": "rgb(20, 121, 90)",
+        "box": {
+          "height": 44,
+          "width": 336,
+          "x": 984,
+          "y": 453
+        },
+        "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+        "color": "rgb(255, 255, 255)",
+        "display": "flex",
+        "font": "Figtree, Inter, system-ui, sans-serif",
+        "gap": "8px",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "10px 20px",
+        "radius": "12px",
+        "shadow": "none",
+        "size": "16px",
+        "tag": "button",
+        "text": "Continuar com e-mail",
+        "weight": "500"
+      }
+    ]
+  },
+  "icons": {
+    "detectedLibraries": [],
+    "inlineSvgCount": 6,
+    "samples": [
+      {
+        "className": "lucide lucide-wallet",
+        "fill": "none",
+        "stroke": "currentColor",
+        "viewBox": "0 0 24 24"
+      },
+      {
+        "className": "lucide lucide-qr-code",
+        "fill": "none",
+        "stroke": "currentColor",
+        "viewBox": "0 0 24 24"
+      },
+      {
+        "className": "lucide lucide-message-circle",
+        "fill": "none",
+        "stroke": "currentColor",
+        "viewBox": "0 0 24 24"
+      },
+      {
+        "className": "lucide lucide-circle-check",
+        "fill": "none",
+        "stroke": "currentColor",
+        "viewBox": "0 0 24 24"
+      },
+      {
+        "className": "",
+        "fill": "",
+        "stroke": "",
+        "viewBox": "0 0 24 24"
+      },
+      {
+        "className": "",
+        "fill": "",
+        "stroke": "",
+        "viewBox": "0 0 24 24"
+      }
+    ],
+    "spriteReferences": [],
+    "useCount": 0
+  },
+  "preview": "auditoria/preview-desktop.jpg",
+  "pages": [
+    {
+      "url": "https://a1-4gu9urnabayfmgplzp2d1mvph.infusion-ai.cloud/login",
+      "localFile": "login/index.html",
+      "title": "Cobrança Pix",
+      "lang": "pt-BR",
+      "stack": [
+        "Tailwind CSS"
+      ],
+      "captureSource": "rendered-dom",
+      "readiness": {
+        "networkScore": {
+          "structural": 0,
+          "visibleText": 12,
+          "score": 1
+        },
+        "liveScore": {
+          "structural": 7,
+          "visibleText": 382,
+          "score": 87.83333333333333
+        },
+        "selected": "rendered-dom",
+        "readiness": {
+          "height": 639,
+          "isFramework": true,
+          "looksLoading": false,
+          "ready": true,
+          "structural": 13,
+          "textLength": 369,
+          "waitedMs": 460,
+          "timedOut": false
+        }
+      },
+      "recoveryMode": null,
+      "runtimeFailures": [],
+      "audit": {
+        "counts": {
+          "forms": 1,
+          "images": 0,
+          "links": 0,
+          "sections": 0,
+          "svg": 6,
+          "videos": 0
+        },
+        "designSystem": {
+          "breakpoints": [],
+          "colors": [
+            {
+              "count": 20,
+              "value": "rgb(227, 230, 236)"
+            },
+            {
+              "count": 13,
+              "value": "rgb(13, 15, 20)"
+            },
+            {
+              "count": 6,
+              "value": "rgb(255, 255, 255)"
+            },
+            {
+              "count": 3,
+              "value": "rgb(253, 253, 254)"
+            },
+            {
+              "count": 2,
+              "value": "rgb(247, 248, 250)"
+            },
+            {
+              "count": 1,
+              "value": "rgb(91, 100, 114)"
+            },
+            {
+              "count": 1,
+              "value": "rgb(20, 121, 90)"
+            }
+          ],
+          "fontFaces": [],
+          "fonts": [
+            {
+              "count": 20,
+              "value": "Figtree, Inter, system-ui, sans-serif"
+            }
+          ],
+          "gaps": [
+            {
+              "count": 4,
+              "value": "8px"
+            },
+            {
+              "count": 2,
+              "value": "12px"
+            },
+            {
+              "count": 1,
+              "value": "24px"
+            },
+            {
+              "count": 1,
+              "value": "6px"
+            }
+          ],
+          "radii": [
+            {
+              "count": 3,
+              "value": "12px"
+            },
+            {
+              "count": 1,
+              "value": "18px"
+            }
+          ],
+          "shadows": [
+            {
+              "count": 1,
+              "value": "rgba(16, 18, 24, 0.04) 0px 1px 2px 0px, rgba(16, 18, 24, 0.07) 0px 2px 8px -4px"
+            }
+          ],
+          "variables": [
+            {
+              "name": "--ease-in-out",
+              "value": "cubic-bezier(.4, 0, .2, 1)"
+            },
+            {
+              "name": "--color-drill-hover",
+              "value": "#f1f4fa"
+            },
+            {
+              "name": "--tw-ring-offset-shadow",
+              "value": "0 0 #0000"
+            },
+            {
+              "name": "--container-md",
+              "value": "28rem"
+            },
+            {
+              "name": "--tw-inset-shadow-alpha",
+              "value": "100%"
+            },
+            {
+              "name": "--color-label-strong",
+              "value": "#5b6472"
+            },
+            {
+              "name": "--tw-ring-shadow",
+              "value": "0 0 #0000"
+            },
+            {
+              "name": "--text-2xl",
+              "value": "1.5rem"
+            },
+            {
+              "name": "--color-warning-bg",
+              "value": "#fdf6e7"
+            },
+            {
+              "name": "--color-drill-text",
+              "value": "#0f6048"
+            },
+            {
+              "name": "--color-info-border",
+              "value": "#c3d8f7"
+            },
+            {
+              "name": "--chart-6",
+              "value": "#4257d4"
+            },
+            {
+              "name": "--chart-7",
+              "value": "#6f39cc"
+            },
+            {
+              "name": "--tw-drop-shadow-alpha",
+              "value": "100%"
+            },
+            {
+              "name": "--text-lg",
+              "value": "1.125rem"
+            },
+            {
+              "name": "--color-saldo-neg",
+              "value": "#c62f2a"
+            },
+            {
+              "name": "--shadow-overlay",
+              "value": "0 8px 24px -8px #0d0f1429"
+            },
+            {
+              "name": "--default-transition-timing-function",
+              "value": "cubic-bezier(.4, 0, .2, 1)"
+            },
+            {
+              "name": "--kpi-bg-amber",
+              "value": "#fdf6e7"
+            },
+            {
+              "name": "--kpi-bg-blue",
+              "value": "#eef4fd"
+            },
+            {
+              "name": "--color-bg",
+              "value": "#f7f8fa"
+            },
+            {
+              "name": "--text-meta--line-height",
+              "value": "1rem"
+            },
+            {
+              "name": "--color-nav-hover",
+              "value": "#f1f4fa"
+            },
+            {
+              "name": "--tw-outline-style",
+              "value": "solid"
+            },
+            {
+              "name": "--text-2xl--line-height",
+              "value": "calc(2 / 1.5)"
+            },
+            {
+              "name": "--color-success-border",
+              "value": "#a9dfc7"
+            },
+            {
+              "name": "--color-receita",
+              "value": "#0f7a52"
+            },
+            {
+              "name": "--tw-inset-ring-shadow",
+              "value": "0 0 #0000"
+            },
+            {
+              "name": "--text-base--line-height",
+              "value": "1.5"
+            },
+            {
+              "name": "--spacing",
+              "value": ".25rem"
+            },
+            {
+              "name": "--text-meta",
+              "value": ".75rem"
+            },
+            {
+              "name": "--color-warning",
+              "value": "#9a6a0f"
+            },
+            {
+              "name": "--color-text-secondary",
+              "value": "#5b6472"
+            },
+            {
+              "name": "--color-scrim",
+              "value": "#0d0f1447"
+            },
+            {
+              "name": "--color-breadcrumb",
+              "value": "#0f6048"
+            },
+            {
+              "name": "--color-info-bg",
+              "value": "#eef4fd"
+            },
+            {
+              "name": "--color-tick",
+              "value": "#6b7381"
+            },
+            {
+              "name": "--font-mono",
+              "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+            },
+            {
+              "name": "--color-pago",
+              "value": "#0f7a52"
+            },
+            {
+              "name": "--color-nav-active",
+              "value": "#0f6048"
+            },
+            {
+              "name": "--color-success",
+              "value": "#0f7a52"
+            },
+            {
+              "name": "--tracking-wide",
+              "value": ".025em"
+            },
+            {
+              "name": "--text-xl--line-height",
+              "value": "calc(1.75 / 1.25)"
+            },
+            {
+              "name": "--font-weight-semibold",
+              "value": "600"
+            },
+            {
+              "name": "--color-danger-border",
+              "value": "#f6c3c0"
+            },
+            {
+              "name": "--text-sm",
+              "value": ".875rem"
+            },
+            {
+              "name": "--ease-out",
+              "value": "cubic-bezier(0, 0, .2, 1)"
+            },
+            {
+              "name": "--color-primary-bg",
+              "value": "#e6f5ee"
+            },
+            {
+              "name": "--color-atrasado",
+              "value": "#c62f2a"
+            },
+            {
+              "name": "--color-pendente",
+              "value": "#9a6a0f"
+            },
+            {
+              "name": "--shadow-card",
+              "value": "0 1px 2px #1012180a, 0 2px 8px -4px #10121812"
+            },
+            {
+              "name": "--tw-inset-shadow",
+              "value": "0 0 #0000"
+            },
+            {
+              "name": "--tw-ring-offset-color",
+              "value": "#fff"
+            },
+            {
+              "name": "--color-despesa",
+              "value": "#c62f2a"
+            },
+            {
+              "name": "--text-lg--line-height",
+              "value": "calc(1.75 / 1.125)"
+            },
+            {
+              "name": "--color-white",
+              "value": "#fff"
+            },
+            {
+              "name": "--chart-5",
+              "value": "#c02a6d"
+            },
+            {
+              "name": "--color-danger-bg",
+              "value": "#fdf0ef"
+            },
+            {
+              "name": "--color-surface",
+              "value": "#fdfdfe"
+            },
+            {
+              "name": "--tw-shadow-alpha",
+              "value": "100%"
+            },
+            {
+              "name": "--leading-tight",
+              "value": "1.25"
+            },
+            {
+              "name": "--radius-sm",
+              "value": "9px"
+            },
+            {
+              "name": "--color-warning-border",
+              "value": "#f0dba6"
+            },
+            {
+              "name": "--font-sans",
+              "value": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+            },
+            {
+              "name": "--color-primary-hover",
+              "value": "#0f6048"
+            },
+            {
+              "name": "--tw-border-style",
+              "value": "solid"
+            },
+            {
+              "name": "--color-text",
+              "value": "#0d0f14"
+            },
+            {
+              "name": "--chart-8",
+              "value": "#c62f2a"
+            },
+            {
+              "name": "--container-2xl",
+              "value": "42rem"
+            },
+            {
+              "name": "--tw-shadow",
+              "value": "0 0 #0000"
+            },
+            {
+              "name": "--container-sm",
+              "value": "24rem"
+            },
+            {
+              "name": "--kpi-bg-cyan",
+              "value": "#e8f7f4"
+            },
+            {
+              "name": "--tw-ring-offset-width",
+              "value": "0px"
+            },
+            {
+              "name": "--color-label-muted",
+              "value": "#6b7381"
+            },
+            {
+              "name": "--color-primary",
+              "value": "#14795a"
+            },
+            {
+              "name": "--color-border",
+              "value": "#e3e6ec"
+            },
+            {
+              "name": "--text-sm--line-height",
+              "value": "calc(1.25 / .875)"
+            },
+            {
+              "name": "--color-nav-text",
+              "value": "#5b6472"
+            },
+            {
+              "name": "--default-font-family",
+              "value": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+            },
+            {
+              "name": "--color-black",
+              "value": "#000"
+            },
+            {
+              "name": "--container-lg",
+              "value": "32rem"
+            },
+            {
+              "name": "--font-weight-medium",
+              "value": "500"
+            },
+            {
+              "name": "--kpi-bg-green",
+              "value": "#e9f7f1"
+            },
+            {
+              "name": "--chart-3",
+              "value": "#0f7a52"
+            },
+            {
+              "name": "--color-saldo-pos",
+              "value": "#0f7a52"
+            },
+            {
+              "name": "--color-primary-light",
+              "value": "#14795a73"
+            },
+            {
+              "name": "--color-danger",
+              "value": "#c62f2a"
+            },
+            {
+              "name": "--color-success-bg",
+              "value": "#e9f7f1"
+            },
+            {
+              "name": "--color-on-primary",
+              "value": "#fff"
+            },
+            {
+              "name": "--default-transition-duration",
+              "value": ".15s"
+            }
+          ]
+        },
+        "forms": [
+          {
+            "fields": [
+              {
+                "name": "",
+                "tag": "input",
+                "type": "email"
+              },
+              {
+                "name": "",
+                "tag": "button",
+                "type": "submit"
+              }
+            ],
+            "method": "get"
+          }
+        ],
+        "icons": {
+          "detectedLibraries": [],
+          "inlineSvgCount": 6,
+          "samples": [
+            {
+              "className": "lucide lucide-wallet",
+              "fill": "none",
+              "stroke": "currentColor",
+              "viewBox": "0 0 24 24"
+            },
+            {
+              "className": "lucide lucide-qr-code",
+              "fill": "none",
+              "stroke": "currentColor",
+              "viewBox": "0 0 24 24"
+            },
+            {
+              "className": "lucide lucide-message-circle",
+              "fill": "none",
+              "stroke": "currentColor",
+              "viewBox": "0 0 24 24"
+            },
+            {
+              "className": "lucide lucide-circle-check",
+              "fill": "none",
+              "stroke": "currentColor",
+              "viewBox": "0 0 24 24"
+            },
+            {
+              "className": "",
+              "fill": "",
+              "stroke": "",
+              "viewBox": "0 0 24 24"
+            },
+            {
+              "className": "",
+              "fill": "",
+              "stroke": "",
+              "viewBox": "0 0 24 24"
+            }
+          ],
+          "spriteReferences": [],
+          "useCount": 0
+        },
+        "layout": {
+          "backgrounds": [
+            {
+              "className": "hidden md:flex flex-col justify-between p-6",
+              "element": "div",
+              "image": "linear-gradient(135deg, rgb(20, 121, 90), rgb(27, 111, 168))",
+              "position": "0% 0%",
+              "size": "auto"
+            }
+          ],
+          "buttons": [
+            {
+              "background": "rgb(253, 253, 254)",
+              "box": {
+                "height": 46,
+                "width": 336,
+                "x": 984,
+                "y": 226
+              },
+              "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+              "color": "rgb(13, 15, 20)",
+              "display": "flex",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "8px",
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "16px",
+              "tag": "button",
+              "text": "Continue com Google",
+              "weight": "500"
+            },
+            {
+              "background": "rgb(253, 253, 254)",
+              "box": {
+                "height": 46,
+                "width": 336,
+                "x": 984,
+                "y": 284
+              },
+              "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+              "color": "rgb(13, 15, 20)",
+              "display": "flex",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "8px",
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "16px",
+              "tag": "button",
+              "text": "Continue com Microsoft",
+              "weight": "500"
+            },
+            {
+              "background": "rgb(20, 121, 90)",
+              "box": {
+                "height": 44,
+                "width": 336,
+                "x": 984,
+                "y": 453
+              },
+              "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+              "color": "rgb(255, 255, 255)",
+              "display": "flex",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "8px",
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "16px",
+              "tag": "button",
+              "text": "Continuar com e-mail",
+              "weight": "500"
+            }
+          ],
+          "headings": [
+            {
+              "background": "rgba(0, 0, 0, 0)",
+              "box": {
+                "height": 32,
+                "width": 720,
+                "x": 24,
+                "y": 252
+              },
+              "className": "text-2xl font-semibold",
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "32px",
+              "margin": "0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "24px",
+              "tag": "h2",
+              "text": "Cobre seus clientes por Pix em segundos, direto no WhatsApp",
+              "weight": "600"
+            },
+            {
+              "background": "rgba(0, 0, 0, 0)",
+              "box": {
+                "height": 28,
+                "width": 336,
+                "x": 984,
+                "y": 150
+              },
+              "className": "text-xl font-semibold",
+              "color": "rgb(13, 15, 20)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "28px",
+              "margin": "0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "20px",
+              "tag": "h1",
+              "text": "Cobrança Pix",
+              "weight": "600"
+            }
+          ],
+          "sections": [],
+          "typographySamples": [
+            {
+              "background": "rgb(247, 248, 250)",
+              "box": {
+                "height": 639,
+                "width": 1536,
+                "x": 0,
+                "y": 0
+              },
+              "className": "",
+              "color": "rgb(13, 15, 20)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "21px",
+              "margin": "0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "14px",
+              "tag": "body",
+              "text": "Cobrança Pix Cobre seus clientes por Pix em segundos, direto no WhatsApp QR Code e Pix copia e cola em cada cobrança Link pronto para enviar pelo WhatsApp Histórico com c",
+              "weight": "400"
+            },
+            {
+              "background": "rgba(0, 0, 0, 0)",
+              "box": {
+                "height": 32,
+                "width": 720,
+                "x": 24,
+                "y": 252
+              },
+              "className": "text-2xl font-semibold",
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "32px",
+              "margin": "0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "24px",
+              "tag": "h2",
+              "text": "Cobre seus clientes por Pix em segundos, direto no WhatsApp",
+              "weight": "600"
+            },
+            {
+              "background": "rgba(0, 0, 0, 0)",
+              "box": {
+                "height": 16,
+                "width": 720,
+                "x": 24,
+                "y": 599
+              },
+              "className": "text-meta",
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "16px",
+              "margin": "0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "12px",
+              "tag": "p",
+              "text": "Cada pessoa vê apenas as suas cobranças.",
+              "weight": "400"
+            },
+            {
+              "background": "rgba(0, 0, 0, 0)",
+              "box": {
+                "height": 28,
+                "width": 336,
+                "x": 984,
+                "y": 150
+              },
+              "className": "text-xl font-semibold",
+              "color": "rgb(13, 15, 20)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "28px",
+              "margin": "0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "20px",
+              "tag": "h1",
+              "text": "Cobrança Pix",
+              "weight": "600"
+            },
+            {
+              "background": "rgba(0, 0, 0, 0)",
+              "box": {
+                "height": 20,
+                "width": 336,
+                "x": 984,
+                "y": 182
+              },
+              "className": "text-sm mt-1",
+              "color": "rgb(91, 100, 114)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "20px",
+              "margin": "4px 0px 0px",
+              "padding": "0px",
+              "radius": "0px",
+              "shadow": "none",
+              "size": "14px",
+              "tag": "p",
+              "text": "Entre para criar e acompanhar suas cobranças",
+              "weight": "400"
+            },
+            {
+              "background": "rgb(253, 253, 254)",
+              "box": {
+                "height": 46,
+                "width": 336,
+                "x": 984,
+                "y": 226
+              },
+              "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+              "color": "rgb(13, 15, 20)",
+              "display": "flex",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "8px",
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "16px",
+              "tag": "button",
+              "text": "Continue com Google",
+              "weight": "500"
+            },
+            {
+              "background": "rgb(253, 253, 254)",
+              "box": {
+                "height": 46,
+                "width": 336,
+                "x": 984,
+                "y": 284
+              },
+              "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+              "color": "rgb(13, 15, 20)",
+              "display": "flex",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "8px",
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "16px",
+              "tag": "button",
+              "text": "Continue com Microsoft",
+              "weight": "500"
+            },
+            {
+              "background": "rgb(253, 253, 254)",
+              "box": {
+                "height": 38,
+                "width": 336,
+                "x": 984,
+                "y": 403
+              },
+              "className": "w-full px-3 py-2 text-sm rounded-md border focus:outline-none focus:ring-2 focus:border-transparent disabled:opacity-60 ",
+              "color": "rgb(13, 15, 20)",
+              "display": "block",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "normal",
+              "letterSpacing": "normal",
+              "lineHeight": "20px",
+              "margin": "0px",
+              "padding": "8px 12px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "14px",
+              "tag": "input",
+              "text": "",
+              "weight": "400"
+            },
+            {
+              "background": "rgb(20, 121, 90)",
+              "box": {
+                "height": 44,
+                "width": 336,
+                "x": 984,
+                "y": 453
+              },
+              "className": "inline-flex items-center justify-center gap-2 font-medium rounded-md cursor-pointer transition-all duration-200 focus:ou",
+              "color": "rgb(255, 255, 255)",
+              "display": "flex",
+              "font": "Figtree, Inter, system-ui, sans-serif",
+              "gap": "8px",
+              "letterSpacing": "normal",
+              "lineHeight": "24px",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "radius": "12px",
+              "shadow": "none",
+              "size": "16px",
+              "tag": "button",
+              "text": "Continuar com e-mail",
+              "weight": "500"
+            }
+          ]
+        },
+        "media": [],
+        "navigation": [],
+        "nextData": {
+          "buildId": "",
+          "families": 0,
+          "pagePropsKeys": [],
+          "present": false,
+          "references": 0,
+          "topLevelKeys": []
+        },
+        "page": {
+          "description": "",
+          "documentHeight": 639,
+          "height": 639,
+          "lang": "pt-BR",
+          "ogImage": "",
+          "themeColor": "",
+          "title": "Cobrança Pix",
+          "url": "https://a1-4gu9urnabayfmgplzp2d1mvph.infusion-ai.cloud/login",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "width": 1536
+        }
+      },
+      "assetAnalysis": {
+        "domResources": 7,
+        "fallbackCandidates": 0,
+        "nextDataFamilies": 0,
+        "nextDataReferences": 0
+      },
+      "usedDomAssets": 8
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://a1-4gu9urnabayfmgplzp2d1mvph.infusion-ai.cloud/_deploys/tenant/409f6628-3e56-478e-81be-d9e21bf89558/app/4b777160-a4d1-43c4-977d-84b5789d9f05/deploy/f3543216-e472-4d82-8a24-aa1a152860c4/assets/index-BhPFPAjF.css",
+      "localFile": "css/index-BhPFPAjF.ihfzrh.css",
+      "kind": "css",
+      "mime": "text/css",
+      "size": 27183
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hMS00Z3U5dXJuYWJheWZtZ3BsenAyZDFtdnBoLmluZnVzaW9uLWFpLmNsb3VkLw",
+      "localFile": "css/main.12ntwoz.css",
+      "kind": "css",
+      "mime": "text/css",
+      "size": 216598
+    },
+    {
+      "url": "https://a1-4gu9urnabayfmgplzp2d1mvph.infusion-ai.cloud/_deploys/tenant/409f6628-3e56-478e-81be-d9e21bf89558/app/4b777160-a4d1-43c4-977d-84b5789d9f05/deploy/f3543216-e472-4d82-8a24-aa1a152860c4/assets/index-aAJs7gpn.js",
+      "localFile": "js/index-aAJs7gpn.1xehh1f.js",
+      "kind": "js",
+      "mime": "application/javascript",
+      "size": 454323
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OKzU2ek7PL3MSNF1Jm54u1LaC2vEYDVR0Jl8xEQNfYPg9pDbEVebJwPZ6Q6ETlHZp0ajQ28rhPDXQ0-nDw8mf4w3YzjHgn7nSZE00FAo8Yw",
+      "localFile": "js/main.8i3zey.js",
+      "kind": "js",
+      "mime": "application/x-javascript",
+      "size": 134757
+    }
+  ],
+  "mediaAudit": [],
+  "externalResources": [
+    "https://fonts.googleapis.com/",
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap"
+  ],
+  "issues": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap",
+      "reason": "{\"code\":-32000,\"message\":\"No resource with given identifier found\"}",
+      "level": "aviso"
+    },
+    {
+      "url": "https://a1-4gu9urnabayfmgplzp2d1mvph.infusion-ai.cloud/_deploys/tenant/409f6628-3e56-478e-81be-d9e21bf89558/app/4b777160-a4d1-43c4-977d-84b5789d9f05/deploy/f3543216-e472-4d82-8a24-aa1a152860c4/assets/index-BhPFPAjF.css",
+      "reason": "{\"code\":-32000,\"message\":\"No resource with given identifier found\"}",
+      "level": "aviso"
+    }
+  ],
+  "instructions": {
+    "reconstruction": "Consulte AUDITORIA-IA.html, auditoria/site-design-system.json e index.html. Reconstrua seção por seção preservando textos, hierarquia, tokens observados e recursos locais. Confirme no navegador a qualidade visual. Não invente backend nem trate indícios como certezas.",
+    "integrity": "Recursos ausentes e páginas com loader estão identificados. Verifique os avisos antes de estimar fidelidade. O original pode depender de APIs privadas e funções de servidor."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "aliases": [
+    {
+      "original": "_deploys/tenant/409f6628-3e56-478e-81be-d9e21bf89558/app/4b777160-a4d1-43c4-977d-84b5789d9f05/deploy/f3543216-e472-4d82-8a24-aa1a152860c4/assets/index-BhPFPAjF.css",
+      "saved": "css/index-BhPFPAjF.ihfzrh.css",
+      "bytes": 27183
+    },
+    {
+      "original": "_deploys/tenant/409f6628-3e56-478e-81be-d9e21bf89558/app/4b777160-a4d1-43c4-977d-84b5789d9f05/deploy/f3543216-e472-4d82-8a24-aa1a152860c4/assets/index-aAJs7gpn.js",
+      "saved": "js/index-aAJs7gpn.1xehh1f.js",
+      "bytes": 454323
+    }
+  ],
+  "unavailableAliases": [],
+  "bytesDuplicated": 481506
+}
